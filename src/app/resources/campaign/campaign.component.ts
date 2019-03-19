@@ -44,4 +44,9 @@ export class CampaignComponent implements OnInit, OnDestroy {
         this.campaignService.loadCampaigns();
     }
 
+    delete(payload) {
+        debugger
+        this.campaignService.deleteCampaigns(payload);
+    }
+
 }

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { XHRBackend, RequestOptions } from '@angular/http';
-import { MaterialModule } from '@angular/material';
+// import { MaterialModule } from '@angular/material';
 
 import { HttpService } from './http.service';
 import { httpServiceFactory } from '../_factories/http-service.factory';
@@ -12,13 +12,13 @@ import { LoaderComponent } from './loader/loader.component';
 @NgModule({
     imports: [
         CommonModule,
-        MaterialModule
+        // MaterialModule
     ],
     exports: [
-        LoaderComponent
+        // LoaderComponent
     ],
     declarations: [
-        LoaderComponent
+        // LoaderComponent
     ],
     providers: [
         LoaderService,

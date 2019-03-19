@@ -1,4 +1,5 @@
 export function campaigns (state: any = [], {type, payload}) {
+    debugger
     switch (type) {
         case 'ADD_CAMPAIGNS':
             return payload;
